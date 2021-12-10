@@ -1,0 +1,341 @@
+.coinflip div.flex .previous {
+    margin-right: 50px;
+}
+
+.coinflip div.flex .current, .coinflip div.flex .previous {
+    max-width: 550px;
+    width: 100%;
+}
+
+.coinflip div.flex .current .header, .coinflip div.flex .previous .header {
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.coinflip div.flex .current .header .create, .coinflip div.flex .previous .header .create {
+  border: 2px solid #428bca;
+  color: #428bca;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-left: auto;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+  width: 100%;
+}
+.coinflip div.flex .current .header .create:hover, .coinflip div.flex .previous .header .create:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #1b2431;
+}
+
+.bust div.flex .left .bottom .quick-select, .bust div.flex .left .top .quick-select, .coinflip div.flex .current .header .create, .coinflip div.flex .current .header .creating .quick-select, .coinflip div.flex .previous .header .create, .coinflip div.flex .previous .header .creating .quick-select, .jackpotView div.bet .quick-select, .no-select, .sidebar ul.menu, .support .tabs > div, .treasure .current .header .create, .treasure .current .header .creating .quick-select, .treasure .previous .header .create, .treasure .previous .header .creating .quick-select, .wheel .bottom .bet .quick-select {
+  -moz-user-select: none;
+}
+.quick-select, .quick-select {
+  background: transparent none repeat scroll 0 0;
+  color: #428bca;
+  display: inline-block;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.quick-select span, .creating .quick-select span {
+  border: 1px solid #428bca;
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px 0 0 -1px;
+  padding: 5px 10px;
+}
+
+.coinflip div.flex .current .header .creating, .coinflip div.flex .previous .header .creating {
+  border: 1px solid #428bca;
+  color: #428bca;
+  margin-left: auto;
+  padding: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.coinflip div.flex .current .header .creating i, .coinflip div.flex .previous .header .creating i {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.coinflip div.flex .current .header .creating h2, .coinflip div.flex .previous .header .creating h2 {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.coinflip div.flex .current .header .creating .f-group:first-of-type, .coinflip div.flex .previous .header .creating .f-group:first-of-type {
+  margin-top: 15px !important;
+}
+
+.coinflip div.flex .current .header .creating .f-group, .coinflip div.flex .previous .header .creating .f-group {
+  margin-top: 25px;
+}
+
+
+
+.coinflip div.flex .current .header .creating .f-group label, .coinflip div.flex .previous .header .creating .f-group label {
+  color: #428bca;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.coinflip div.flex .current .header .creating .f-group input, .coinflip div.flex .previous .header .creating .f-group input {
+  background: #1b2431 none repeat scroll 0 0;
+  border: 1px solid #428bca;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 300px;
+  padding: 10px;
+  width: 100%;
+}
+
+.coinflip div.flex .current .header .creating button.submit, .coinflip div.flex .previous .header .creating button.submit {
+  background: #428bca none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: 2px 2px 2px #1b2431;
+  color: #273142;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 25px;
+  padding: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.coinflip div.flex .current .body, .coinflip div.flex .previous .body {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 550px;
+}
+
+.coinflip div.flex .current .body .game:last-of-type, .coinflip div.flex .previous .body .game:last-of-type {
+  border-bottom: medium none;
+}
+
+.coinflip div.flex .current .body .game, .coinflip div.flex .previous .body .game {
+  align-items: center;
+  border-bottom: 1px solid rgba(49, 61, 79, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.coinflip div.flex .current .body .game div.user, .coinflip div.flex .previous .body .game div.user {
+  align-items: center;
+  display: flex;
+}
+
+.coinflip div.flex .current .body .game .wager, .coinflip div.flex .previous .body .game .wager {
+  color: #428bca;
+  font-weight: 900;
+}
+
+.coinflip div.flex .current .body .game button, .coinflip div.flex .previous .body .game button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #428bca;
+  color: #428bca;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+}
+
+.coinflip div.flex .current .body .game button:hover, .coinflip div.flex .previous .body .game button:hover {
+  background: #428bca none repeat scroll 0 0;
+  color: #1b2431;
+}
+
+.coinflip div.flex .current, .coinflip div.flex .previous {
+  max-width: 550px;
+  width: 100%;
+}
+
+.coinflip div.flex .current .body, .coinflip div.flex .previous .body {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 550px;
+}
+
+.coinflip {
+  color: #fff;
+}
+
+.coinflip div.flex .current .body .versus, .coinflip div.flex .previous .body .versus {
+  background: rgba(39, 49, 66, 0.6) none repeat scroll 0 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.coinflip div.flex .current .body .versus .game, .coinflip div.flex .previous .body .versus .game {
+  border: medium none;
+  padding: 15px;
+}
+
+.coinflip div.flex .current .body .game div.user, .coinflip div.flex .previous .body .game div.user {
+  align-items: center;
+  display: flex;
+}
+
+.coinflip div.flex .current .body .game div.user .name, .coinflip div.flex .previous .body .game div.user .name {
+  font-weight: 400;
+  margin-left: 15px;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.coinflip div.flex .current .body .versus, .coinflip div.flex .previous .body .versus {
+  text-align: center;
+}
+
+.coinflip div.flex .current .body .versus .winner, .coinflip div.flex .previous .body .versus .winner {
+  align-items: center;
+  background: #273142;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.coinflip div.flex .current .body .versus .winner, .coinflip div.flex .previous .body .versus .winner {
+  text-align: center;
+}
+
+.coinflip div.flex .current .body .versus .winner > span img, .coinflip div.flex .previous .body .versus .winner > span img {
+  margin-right: 15px;
+  max-height: 30px;
+}
+
+.coinflip div.flex .current .body .versus .winner, .coinflip div.flex .previous .body .versus .winner {
+  text-align: center;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+.coinflipGame .col-cont {
+  align-items: center;
+  display: flex;
+}
+
+.coinflipGame .col-cont .col {
+  text-align: center;
+  width: 50%;
+}
+
+.coinflipGame .totalWagered::after {
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.totalWagered::after {
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+.cubecontainer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0 auto 40px;
+  
+  perspective: 1000px;
+  perspective-origin: 50% 100%;
+}
+
+.coin-flip-cont {
+width: 200px;
+height: 200px;
+float:right;
+}
+
+.coin {
+position: relative;
+width: 200px;
+z-index:999999;
+transform-style: preserve-3d;
+}
+
+.coin .front, .coin .back {
+position: absolute;
+width: 200px;
+height: 200px;
+}
+
+.coin .front {
+transform: translateZ(1px);
+border-radius: 50%;
+background-color: #3498db;
+}
+
+.coin .back {
+transform: translateZ(-1px) rotateY(180deg);
+border-radius: 50%;
+background-color: #2ecc71;
+}
+
+
+/*Nibikeee mondta hogy 6 sec legyen.*/
+.coin.animation1980 {
+-webkit-animation: rotate1980 6s linear forwards; 
+animation: rotate1980 6s linear forwards;
+}
+
+.coin.animation2160 {
+-webkit-animation: rotate2160 6s linear forwards; 
+animation: rotate2160 6s linear forwards;
+}
+
+@-webkit-keyframes rotate1980 {
+0% { -webkit-transform: rotateY(0) scale(1); -moz-transform: rotateY(0) scale(1); transform: rotateY(0) scale(1);}
+50% { -webkit-transform: rotateY(990deg) scale(2.5); -moz-transform: rotateY(990deg) scale(2.5); transform: rotateY(990deg)}
+100% { -webkit-transform: rotateY(1980deg) scale(1); -moz-transform: rotateY(1980deg) scale(1); transform: rotateY(1980deg) scale(1);}
+}
+
+@keyframes rotate1980 {
+0% { -webkit-transform: rotateY(0) scale(1); -moz-transform: rotateY(0) scale(1); transform: rotateY(0) scale(1);}
+50% { -webkit-transform: rotateY(990deg) scale(2.5); -moz-transform: rotateY(990deg) scale(2.5); transform: rotateY(990deg) scale(2.5);}
+100% { -webkit-transform: rotateY(1980deg) scale(1); -moz-transform: rotateY(1980deg) scale(1); transform: rotateY(1980deg) scale(1);}
+}
+
+@-webkit-keyframes rotate2160 {
+0% { -webkit-transform: rotateY(0) scale(1); -moz-transform: rotateY(0) scale(1); transform: rotateY(0) scale(1);}
+50% { -webkit-transform: rotateY(1080deg) scale(2.5); -moz-transform: rotateY(1080deg) scale(2.5); transform: rotateY(1080deg) scale(2.5);}
+100% { -webkit-transform: rotateY(2160deg) scale(1); -moz-transform: rotateY(2160deg) scale(1); transform: rotateY(2160deg) scale(1);}
+}
+
+@keyframes rotate2160 {
+0% { -webkit-transform: rotateY(0) scale(1); -moz-transform: rotateY(0) scale(1); transform: rotateY(0) scale(1);}
+50% { -webkit-transform: rotateY(1080deg) scale(2.5); -moz-transform: rotateY(1080deg) scale(2.5); transform: rotateY(1080deg) scale(2.5);}
+100% { -webkit-transform: rotateY(2160deg) scale(1); -moz-transform: rotateY(2160deg) scale(1); transform: rotateY(2160deg) scale(1);}
+}
+
+#active_duel_games{
+  margin-top:95px;
+}
